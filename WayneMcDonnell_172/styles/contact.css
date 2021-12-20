@@ -1,0 +1,71 @@
+	fieldset{
+		width: 75%;
+		margin: auto;
+		border: 2px lightblue solid;
+		border-radius: 4px;
+		background-color: #dfdfdf;
+		
+	}
+	
+	legend	{
+		color: red;
+		background-color: lightblue;
+		border-radius: 12px;
+		margin: 0;
+		text-align: center
+	}
+	
+	.lab1 {
+		text-align: right;
+		width: 150px;
+		display: inline-block;
+	}
+	
+	.lab2 {
+		text-align: right;
+		width: 100px;
+		display: inline-block
+	}
+	
+	.lab3 {
+		text-align: right;
+		width: 75px;
+		display: inline-block
+	}
+	
+	
+	#no, #yes, #maybe	{
+		margin-right: 10px;
+	}
+	
+	.comments	{
+		width: 75%;
+		height: 125px;
+	}
+	
+
+	.reset	{
+		margin-left: 150px;
+		margin-right:75px
+	}
+	
+	.reset:hover	{
+		background-color: lightblue;
+		transform: scale(1.15);
+		transition: .5s;
+	}
+	
+	.submit:hover{
+		background-color: lightblue;
+		transform: scale(1.15);
+		transition: .5s;
+	}
+	
+	
+	.lastPar	{
+		text-align: center;
+	}
+
+	
+	
+	

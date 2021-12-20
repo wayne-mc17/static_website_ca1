@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="website about drogheda town in the republic of ireland" content="information, pictures and social media promting tourism in the town" />
+		<meta name="Tourisim" content="Drogheda, louth, ireland, St. Lawrences gate, The old abbey, St. Peters church" />
+		
+		<title>
+			Welcome to Drogheda
+		</title>
+		
+			<link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+			<link href="styles/common.css" rel="stylesheet" type="text/css" />
+			<link href="styles/contact.css" rel="stylesheet" type="text/css" />
+			<link href="styles/commonPrint.css" rel="stylesheet" type="text/css" media="print" />
+		
+		
+	</head>
+	
+	<body>
+		<a id="top"></a>
+			<main>
+			
+				<nav class="horizontal menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="history.html">History</a></li>
+						<li><a href="culture.html">Social</a>
+							<ul>	
+								<li><a class="drop" href="https://en.wikipedia.org/wiki/Battle_of_the_Boyne" target="_blank">Battle of the Boyne</a></li>
+								<li><a class="drop" href="https://twitter.com/droghedalifecom?lang=en" target="_blank">Twitter: Drogheda Life</a></li>
+								<li><a class="drop" href="https://www.drogheda.ie/" target="blank">Drogheda Tourism</a></li>
+							</ul>
+						</li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a class="active" href="contact.html" >Contact</a></li>
+					</ul>
+				</nav>
+				
+				<header>
+					<img src="banner_image/newBanner.jpg" id="banner" alt="Viaduct train bridge drogheda banner image" width="985" />
+				</header>
+				<br />
+				
+			<div>
+			<form id="contactUs" name="contactUs" action="mailto:waynemcdonnell17@hotmail.com" method="post" enctype="text/plain">
+			
+			<fieldset>
+				<legend>Name Details</legend>
+				
+				<label for="yourName" class="lab1">Your Firstname* <span class="embolden"></span></label>
+				<input id="yourName" name="yourName" required autofocus pattern="[^0-9]+" type="text" title="First Name" placeholder="First Name" size="35" /><br /><br />
+				
+				<label for="lastName" class="lab1">Your Lastname*</label>
+				<input id="lastName" name="lastName"  required pattern="[^0-9]+" type="text" title="Last Name" placeholder="Last Name" size="50" /><br /><br />
+				
+				<label for="theDate" class="lab1">Date of birth</label>
+				<input id="theDate" name="theDate" type="date" title="theDate"  /><br /><br />
+			</fieldset>
+			
+			<fieldset>
+				<legend>Address Details</legend>
+				
+				<label for="houseNumber" class="lab2">House Number*</label>
+				<input id="houseNumber" name="houseNumber"  required type="number" min="0" max="999" title="House Number" placeholder="House Number" /><br /><br />
+				
+				<label for="street" class="lab2">Street*</label>
+				<input id="street" name="street" required pattern="[^0-9]+"  type="text" title="Street" placeholder="Street" /><br /><br />
+				
+				<label for="town" class="lab2">Town*</label>
+				<input id="town" name="town"  required pattern="[^0-9]+"  type="text" title="Town" placeholder="Town" /><br /><br />
+				
+				<label for="extraAddress" class="lab2">Extra Address (if Needed)</label>
+				<input id="extraAddress" name="extraAddress" type="text" title="Extra Address" placeholder="Street" /><br /><br />
+				
+				<label for="county" class="lab2">County*</label>
+					<select id="county" required>
+						<option value="">Please select a county</option>
+						<optgroup label="Connacht">
+						<option value="galway">Galway</option>
+						<option value="leitrim">Leitrim</option>
+						<option value="mayo">Mayo</option>
+						<option value="roscommon">Roscommon</option>
+						<option value="sligo">Sligo</option>
+						<optgroup label="Leinster">
+						<option value="carlow">Carlow</option>
+						<option value="dublin">Dublin</option>
+						<option value="kildare">Kildare</option>
+						<option value="kilkenny">Kilkenny</option>
+						<option value="laois">Laois</option>
+						<option value="longford">Longford</option>
+						<option value="louth">Louth</option>
+						<option value="meath">Meath</option>
+						<option value="offaly">Offaly</option>
+						<option value="westmeath">Westmeath</option>
+						<option value="wexford">Wexford</option>
+						<option value="wicklow">Wicklow</option>
+						<optgroup label="Munster">
+						<option value="clare">Clare</option>
+						<option value="cork">Cork</option>
+						<option value="kerry">Kerry</option>
+						<option value="limerick">Limerick</option>
+						<option value="tipperary">Tipperary</option>
+						<option value="waterford">Waterford</option>
+						<optgroup label="Ulster">
+						<option value="antrim">Antrim</option>
+						<option value="armagh">Armagh</option>
+						<option value="cavan">Cavan</option>
+						<option value="derry">Derry</option>
+						<option value="donegal">Donegal</option>
+						<option value="down">Down</option>
+						<option value="fermanagh">Fermanagh</option>
+						<option value="monaghan">Monaghan</option>
+						<option value="tyrone">Tyrone</option>
+					</select><br /><br />
+					
+						<label class="lab2">EirCode*</label>
+						<input type="text" size="10" 
+						required pattern="\b(?:(a(4[125s]|6[37]|7[5s]|[8b][1-6s]|9[12468b])|c1[5s]|d([0o][1-9sb]|1[0-8osb]|2[024o]|6w)|e(2[15s]|3[24]|4[15s]|[5s]3|91)|f(12|2[368b]|3[15s]|4[25s]|[5s][26]|9[1-4])|h(1[2468b]|23|[5s][34]|6[25s]|[79]1)|k(3[246]|4[5s]|[5s]6|67|7[8b])|n(3[79]|[49]1)|p(1[247]|2[45s]|3[126]|4[37]|[5s][16]|6[17]|7[25s]|[8b][15s])|r(14|21|3[25s]|4[25s]|[5s][16]|9[35s])|t(12|23|34|4[5s]|[5s]6)|v(1[45s]|23|3[15s]|42|9[2-5s])|w(12|23|34|91)|x(3[5s]|42|91)|y(14|2[15s]|3[45s]))\s?[abcdefhknoprtsvwxy\d]{4})\b" placeholder="EirCode" />
+					
+					<br />
+			
+			</fieldset>
+			
+			<fieldset>
+				<legend>Non-postal Contact Details</legend>
+				
+				<label for="mobile" class="lab3">Mobile</label>
+				<input id="mobile" name="mobile" type="text" title="Mobile Number" placeholder="Phone no." /><br /><br />
+				
+				<label for="email" class="lab3">Email</label>
+				<input id="email" name="email" title="Email" placeholder="Email" type="email" size="50" required /><br /><br />
+				
+			</fieldset>
+			
+			<fieldset>
+				<legend>Drogheda Tourism</legend>
+				<p>Have you ever visited Drogheda?</p>
+				<input id="yes" name="visit" type="radio" value="yes" />Yes<br />
+				<input id="no" name="visit"  type="radio" value="no"/>No<br />
+				<input  id="maybe" name="visit"  type="radio" value="I plan to"/>I plan to in the future<br />
+			</fieldset>
+			
+			<fieldset>
+				<legend>Comments</legend>
+				<label for="newsLetter">Would you like to signup to our e-mail newsletter</label>
+				<input id="newsLetter" type="checkbox" name="newsLetter"/>
+				<br /><br />
+				
+				<label for="comments">Any Comments or Questions?</label><br />
+				
+				<textarea id="comments" class="comments" name="comments"></textarea>
+				
+			</fieldset>
+			
+			<fieldset>
+				<legend>Form Completed?</legend>
+					
+					<input class="reset" type="reset" value="Reset the Form Values" />
+					<input class="submit" type="submit" value="Click here to send us the completed form" />
+					
+			</fieldset>
+			
+				<p class="lastPar">
+					If you would prefer to send this form to us, simply print it and send the completed form to.<br /><br />
+					
+					Drogheda Page,
+					Drogheda road,
+					Drogheda,
+					Co. Louth.
+					
+				</p>
+			
+		</form>
+		</div>
+			<footer>
+				<address>
+					
+					<img src="images/favicon.jpg" alt="favicon image" /> &#169; Wayne McDonnell, <img src="images/favicon.jpg" alt="favicon image" /> Drogheda, <img src="images/favicon.jpg" alt="favicon image" />  County Louth,<img src="images/favicon.jpg" alt="favicon image" /> Ireland <img src="images/favicon.jpg" alt="favicon image" />
+				
+					<p><a class="one" href="#top">Back to the top</a></p>
+					
+				</address>
+			</footer>	
+			               
+			</main>
+		
+			
+	</body>
+</html>

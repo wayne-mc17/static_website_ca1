@@ -1,0 +1,76 @@
+	@font-face	{
+		font-family: "newFont";
+		src: url("font/arthur.ttf");
+		
+	}
+	
+	#Petersimage	{
+		float: right;
+		margin: 0em 0em 1em 1em;
+		border-style: outset;
+		border-width: 0.2em;
+		border-color: cyan
+	}
+	
+	#Petersimage:hover	{
+		transform: scale(1.25);
+		transition: 1.5s;
+	}
+
+	.directions	{
+		color: orange;
+		font-weight: bold;
+	
+	}
+
+	
+	/*
+	#map	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200
+	}
+	*/
+	
+	#map	{
+		text-align: center;
+		
+	}
+	
+	.first	{
+		margin-left: 0.5em;
+		font-family: 'newFont';
+		background-color: lightblue;
+		
+	}
+	
+	.sound1	{
+		padding-left: 150px;
+		font-size: 25px;
+		color: blue;
+		letter-spacing: 8px;
+		font-family: oblique;
+		text-shadow: 2px 2px #3FE30E
+	}
+	
+
+	#section2 ul	{
+		list-style-image: url('../images/favicon.jpg')
+	}
+	
+	
+	
+	
+	
+
+	
+	
+
+	
+
+
+		
+	
+
+	

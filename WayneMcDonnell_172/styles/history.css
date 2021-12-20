@@ -1,0 +1,82 @@
+	
+	
+	#gateImage	{
+	
+		float: right;
+		margin: 0em 0em 1em 1em;
+		border-style: outset;
+		border-width: 0.2em;
+		border-color: cyan;
+	}
+	
+	
+	.table, th, td {
+		margin-left: 17em;
+		border-style: ridge;
+		border-width: 0.4em;
+		border-color: white;
+		border-radius: 12px;
+		width: 450px;
+		
+		
+	}
+	
+	thead	{
+		text-align: center;
+		background-color: white;
+	}
+	
+	tbody	{
+		text-align: center;
+		background-color: lightblue;
+	}
+	
+	tfoot{
+		text-align: center;
+		background-color: orange;
+		
+	}
+	
+	.info	{
+		
+		background: -webkit-linear-gradient(#fff, #00abeb);
+		margin-left: 1em;
+		padding-left: 0em;
+		
+	}
+	
+	.info:hover	{
+		background: -webkit-linear-gradient(#ff5414, #fff);
+		transition: 2s;
+	}
+	
+	
+	.two{
+		text-decoration: none;
+	}
+	.two:hover {
+		
+		background-color: lightblue
+	}
+
+		
+	
+	#map1	{
+		text-align: center;
+		
+	}	
+	
+	ol	{
+		text-shadow: 0px 0px 10px brown;
+		list-style-image: url('../images/favicon.jpg')
+	}
+	
+	.sound2	{
+		padding-left: 150px;
+		font-size: 25px;
+		color: blue;
+		letter-spacing: 8px;
+		font-family: oblique;
+		text-shadow: 2px 2px #3FE30E
+	}
+	

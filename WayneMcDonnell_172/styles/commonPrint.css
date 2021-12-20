@@ -1,0 +1,25 @@
+/*
+*/
+
+	@page{
+		size: 8.5in 11in;
+		margin: 0.5in;
+	}
+
+	#head, #links, #banner, #Petersimage, 
+	#map, #map1, #gateImage, #abbeyImage, 
+	#imageTable, #DroghedaPics, #faceBook, 
+	#video, #para, #churchVideo, .address, .menu, .sound	{
+		display: none
+	}
+
+	h1, h2, h3, h4, h5, h6	{
+		font-family: sans-serif;
+		border: none;
+	}
+
+	.first	{
+		font-family: sans-serif;
+	}
+
+		

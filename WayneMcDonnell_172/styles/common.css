@@ -1,0 +1,174 @@
+	body	{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		background-image: url("../images/stLawrencesGateBackground.jpg")
+	
+}
+
+	main	{
+		width: 1000px;
+		text-align: left;
+		margin: 0 auto 0 auto;
+		background: #f0ece8
+}
+	#banner	{
+		border-style: solid;
+		border-width: 0.5em;
+		border-color: lightblue;
+		border-radius: 12px;
+	}
+
+	header	{
+		width: 100%;
+		text-align: center;
+		vertical-align: center;
+}
+
+	.menu ul	{
+			list-style: none;
+			padding: 0px;
+			margin: 0px;
+			position: fixed;
+			border-style: outset;
+			border-width: 0.2em;
+			border-radius: 12px;
+			overflow: hidden;
+			text-shadow: 0 1px #808d93,
+			-1px 0 #cdd2d5, -1px 2px #808d93,
+			-2px 1px #cdd2d5, -2px 3px #808d93,
+			-3px 2px #cdd2d5, -3px 4px #808d93,
+			-4px 3px #cdd2d5, -4px 5px #808d93,
+			-5px 4px #cdd2d5, -5px 6px #808d93,
+			-6px 5px #cdd2d5, -6px 7px #808d93,
+			-7px 6px #cdd2d5, -7px 8px #808d93,
+			-8px 7px #cdd2d5;
+			
+			
+		}
+		
+		.menu li{
+			width: 200px;
+			text-align: center;
+		}
+		
+		.menu a,
+		.menu span	{
+			position: relative;
+			text-decoration: none;
+			color: white;
+			background-color: #b1dae7;
+			display: block;
+			font-size: 30px;
+			
+		}
+		
+		.menu a:hover, 
+		.menu a:active,
+		.menu span:hover	{
+			color: #b1dae7;
+			background-color: white;
+			transform: scale(1.15);
+			transition: 1s;
+			position: relative;
+			
+		}
+		
+		.menu span:hover	{
+			cursor: pointer;
+		}
+		
+		.menu.horizontal li	{
+			float: left;
+		}
+		
+		.menu ul li ul{
+			visibility: hidden;
+		}
+		
+		.menu ul li:hover ul{
+			visibility: visible;
+		}
+		
+		.menu a.active{
+			animation: alertPulse 2.5s ease-out;
+			animation-iteration-count: infinite;
+			opacity: 1;
+			background: #b1dae7;
+		}
+		
+	@keyframes alertPulse {
+		0% {background-color: #b1dae7; opacity: 1;}
+		50% {opacity: #b1dae7; opacity: 0.35; }
+		100% {opacity: #b1dae7; opacity: 1;}
+}
+
+
+	h2, h3		{	
+			background-color: lightblue;
+		}
+		
+		
+		h2	{
+			text-align: center;
+			width: 15em;
+			font-size: 2em;
+			letter-spacing: 0.2em;
+			text-indent: 0em;
+			border-style: ridge;
+			border-width: 0.2em;
+			border-color: white;
+			text-shadow: -5px 5px 0px grey, -10px 10px 0px lightgrey;
+			
+		}
+	
+		
+
+		h3{
+			color: white;
+			width: 10em;
+			padding-left: 1em;
+			border-style: ridge;
+			border-width: 0.2em;
+			border-color: white;
+			border-radius: 12px;
+			text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, 
+			-2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 
+			2px 0px 0 #4074b5, 0px 2px 0 #4074b5, 
+			-2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+	}
+
+		address	{
+			text-align: center;
+			font: normal small-caps 0.8em sans-serif;
+			border-top: 0.8em double lightblue;
+			padding-top: 1em
+			
+	}
+	
+	
+		
+	.one:link, a.one:visited {
+			color: blue;
+			text-decoration: none;
+			background-color:lightblue;
+			font-size: 20px;
+			
+	}
+	
+	.one:hover {
+			color: white;
+			background-color: cyan;
+			width: 100px;
+			margin: 0 auto;
+			border-style: hidden;
+			border-width: 0.2em;
+			border-radius: 12px;
+			transform: scale(1.25);
+			transition: 1.5s;
+	}
+
+		.one:active {
+			color: red;
+	}
+	
+		
